@@ -1,0 +1,51 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: entry-point-ui
+  namespace: sia-interface
+spec:
+  selector:
+    sia-app: entry-point
+    tier: ui
+  ports:
+  - protocol: TCP
+    port: 8443
+    targetPort: 8443
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: entry-point
+  namespace: sia-interface
+  labels:
+    sia-app: entry-point
+    tier: ui
+spec:
+  replicas: 1
+  revisionHistoryLimit: 3
+  selector:
+    matchLabels:
+      sia-app: entry-point
+      tier: ui
+  template:
+    metadata:
+      labels:
+        sia-app: entry-point
+        tier: ui
+    spec:
+      terminationGracePeriodSeconds: 2
+      containers:
+      - name: main
+        image: acc-md.registry.jetbrains.space/p/frontend/containers/entry-point-lit:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8443
+        volumeMounts:
+        - { name: certs, mountPath: /certs }
+        - { name: static-server-conf, mountPath: /etc/nginx/conf.d }
+      dnsPolicy: Default
+      volumes:
+      - { name: certs, secret: { secretName: sia-certs } }
+      - { name: static-server-conf, configMap: { name: static-server-conf } }
+      imagePullSecrets:
+      - name: space-reg-credentials

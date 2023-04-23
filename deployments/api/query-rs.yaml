@@ -1,0 +1,62 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: query-rs-api
+  namespace: sia-services
+spec:
+  selector:
+    sia-app: query-rs
+    tier: api
+  ports:
+  - protocol: TCP
+    port: 8443
+    targetPort: 8443
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: query-rs
+  namespace: sia-services
+  labels:
+    sia-app: query-rs
+    tier: api
+spec:
+  replicas: 1
+  revisionHistoryLimit: 3
+  selector:
+    matchLabels:
+      sia-app: query-rs
+      tier: api
+  template:
+    metadata:
+      labels:
+        sia-app: query-rs
+        tier: api
+    spec:
+      terminationGracePeriodSeconds: 5
+      securityContext:
+        runAsUser: 1000
+      containers:
+      - name: main
+        image: ghcr.io/sia-services/query-server-rs/sia-services-query-server-rs:latest
+        imagePullPolicy: Always
+        env:
+        - { name: SERVER_ADDR, value: "0.0.0.0:8443" }
+        - { name: AUTH_SERVICE_URL, value: "https://identity-rs-api.sia-services.svc.cluster.local:8443/auth/permissions" }
+        - { name: "SSL.PATH", value: "/certs" }
+        - { name: "SSL.KEYFILE", value: "internal.key" }
+        - { name: "SSL.CERTFILE", value: "internal.crt" }
+        - { name: "PG.USER", value: "query_service" }
+        - { name: "PG.PASSWORD", value: "qr-serv-2022-09-13" }
+        - { name: "PG.HOST", value: "10.10.112.11" }
+        - { name: "PG.PORT", value: "5432" }
+        - { name: "PG.DBNAME", value: "acc" }
+        - { name: "PG.POOL.MAX_SIZE", value: "16" }
+        ports:
+        - containerPort: 8443
+        volumeMounts:
+        - { name: certs, mountPath: /certs, readOnly: true }
+      volumes:
+      - { name: certs, secret: { secretName: sia-certs } }
+      imagePullSecrets:
+      - name: github-reg-credentials

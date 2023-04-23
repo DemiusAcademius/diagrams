@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: undeliverables-receiver
+  namespace: sia-services
+  labels:
+    sia-app: undeliverables-receiver
+    tier: api
+spec:
+  replicas: 1
+  revisionHistoryLimit: 3
+  selector:
+    matchLabels:
+      sia-app: undeliverables-receiver
+      tier: api
+  template:
+    metadata:
+      labels:
+        sia-app: undeliverables-receiver
+        tier: api
+    spec:
+      terminationGracePeriodSeconds: 5
+      securityContext:
+        runAsUser: 1000
+      containers:
+      - name: main
+        image: acc-md.registry.jetbrains.space/p/backend/containers/undeliverable-receiver:latest
+        imagePullPolicy: Always
+        env:
+        - { name: CLIENT_PASSWORD, valueFrom: { secretKeyRef: { name: production-secret, key: db-client-password } } }
+        ports:
+        - containerPort: 8443
+        volumeMounts:
+        - { name: certs, mountPath: /certs, readOnly: true }
+      volumes:
+      - { name: certs, secret: { secretName: sia-certs } }
+      imagePullSecrets:
+      - name: space-reg-credentials

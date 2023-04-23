@@ -1,0 +1,54 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: epayment-api
+  namespace: sia-services
+spec:
+  selector:
+    sia-app: epayment
+    tier: api
+  ports:
+  - protocol: TCP
+    port: 8443
+    targetPort: 8443
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: epayment
+  namespace: sia-services
+  labels:
+    sia-app: epayment
+    tier: api
+spec:
+  replicas: 1
+  revisionHistoryLimit: 3
+  selector:
+    matchLabels:
+      sia-app: epayment
+      tier: api
+  template:
+    metadata:
+      labels:
+        sia-app: epayment
+        tier: api
+    spec:
+      terminationGracePeriodSeconds: 5
+      securityContext:
+        runAsUser: 1000
+      containers:
+      - name: main
+        image: acc-md.registry.jetbrains.space/p/backend/containers/epayment:latest
+        imagePullPolicy: Always
+        env:
+        - { name: KEYSTORE_PATH, valueFrom: { configMapKeyRef: { name: quarkus-config, key: keystore_path } } }
+        - { name: KEYSTORE_PASSWORD, valueFrom: { secretKeyRef: { name: production-secret, key: keystore-password } } }
+        - { name: CLIENT_PASSWORD, valueFrom: { secretKeyRef: { name: production-secret, key: db-client-password } } }
+        ports:
+        - containerPort: 8443
+        volumeMounts:
+        - { name: certs, mountPath: /certs, readOnly: true }
+      volumes:
+      - { name: certs, secret: { secretName: sia-certs } }
+      imagePullSecrets:
+      - name: space-reg-credentials
