@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: code-with-quarkus
+  namespace: my-namespace
+  labels:
+    app: code-with-quarkus
+    tier: backend
+spec:
+  replicas: 2
+  revisionHistoryLimit: 3
+  selector:
+    matchLabels:
+      app: code-with-quarkus
+      tier: backend
+  template:
+    metadata:
+      labels:
+        app: code-with-quarkus
+        tier: backend
+    spec:
+      terminationGracePeriodSeconds: 5
+      containers:
+        - name: main
+          image: registry.digitalocean.com/first-project-registry/code-with-quarkus-jvm:latest
+          imagePullPolicy: Always

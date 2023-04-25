@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: code-with-quarkus
+  namespace: my-namespace
+spec:
+  containers:
+    - name: code-with-quarkus
+      image: registry.digitalocean.com/first-project-registry/code-with-quarkus-jvm:latest
+      ports:
+        - containerPort: 8080
