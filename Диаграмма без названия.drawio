@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-02T08:39:28.921Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ZDl9_W25Y61AaYnTTW-B" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-02T08:40:51.799Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="LRR0zBRzfgKN_CaBLSwS" version="21.2.3" type="github">
   <diagram name="Страница 1" id="YVO7yBQdUToCooKlwACB">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -190,7 +190,7 @@
         <mxCell id="KxVWxkjvfM31sfp2cjp--48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.875;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iBNtOLJXSLs2kxBYLgRO-77" target="KxVWxkjvfM31sfp2cjp--45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iBNtOLJXSLs2kxBYLgRO-77" value="Rule II" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="iBNtOLJXSLs2kxBYLgRO-77" value="Rule IV" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1121" y="440" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="KxVWxkjvfM31sfp2cjp--47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.625;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iBNtOLJXSLs2kxBYLgRO-78" target="KxVWxkjvfM31sfp2cjp--45">
@@ -202,7 +202,7 @@
         <mxCell id="KxVWxkjvfM31sfp2cjp--46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.125;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iBNtOLJXSLs2kxBYLgRO-84" target="KxVWxkjvfM31sfp2cjp--45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iBNtOLJXSLs2kxBYLgRO-84" value="Rule VI" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="iBNtOLJXSLs2kxBYLgRO-84" value="Rule II" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1280" y="320" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="KxVWxkjvfM31sfp2cjp--5" value="&lt;b&gt;Default combine rules:&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
