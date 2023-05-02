@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-02T08:46:20.543Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="56oYmEOPr8KP_mg24IGf" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-02T12:20:22.463Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="5qPLKDZMwce5Bgq-C0gb" version="21.2.3" type="github">
   <diagram name="Страница 1" id="YVO7yBQdUToCooKlwACB">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -208,8 +208,8 @@
         <mxCell id="KxVWxkjvfM31sfp2cjp--5" value="&lt;b&gt;Default combine rules:&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="546" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KxVWxkjvfM31sfp2cjp--6" value="&lt;ul&gt;&lt;li&gt;Group have default campaign&lt;/li&gt;&lt;li&gt;All campaigns automatically cancel default campaign&lt;/li&gt;&lt;li&gt;All campaigns by default coexist each other&lt;/li&gt;&lt;li&gt;Group can have constraints: &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; campaign A cancels campaigns (B,C);&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; campaign X depends on any/all campaigns (Y,Z)&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="280" y="540" width="510" height="110" as="geometry" />
+        <mxCell id="KxVWxkjvfM31sfp2cjp--6" value="&lt;ul&gt;&lt;li&gt;Group have default campaign&lt;/li&gt;&lt;li&gt;All campaigns automatically cancel default campaign&lt;/li&gt;&lt;li&gt;All campaigns by default coexist each other&lt;/li&gt;&lt;li&gt;Group can have constraints: &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; campaign A cancels campaigns (B,C);&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; campaign X depends on any/all campaigns (Y,Z)&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;font color=&quot;#660000&quot;&gt;Possible problem: if campaign A cancels B, and B cancels C, will A transitive cancel C?&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="220" y="540" width="570" height="120" as="geometry" />
         </mxCell>
         <mxCell id="KxVWxkjvfM31sfp2cjp--10" value="Depends (same merchant)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="300" y="798" width="160" height="30" as="geometry" />
