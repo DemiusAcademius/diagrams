@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-04T04:46:04.213Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="vY80Ul8uGW4WJ33em9rw" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-04T12:28:38.649Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="QJrxDxaELCONxHZx-hlG" version="21.2.3" type="github">
   <diagram name="Страница 1" id="YVO7yBQdUToCooKlwACB">
     <mxGraphModel dx="989" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -289,8 +289,8 @@
         <mxCell id="KxVWxkjvfM31sfp2cjp--32" value="Transaction" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1161" y="547" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KxVWxkjvfM31sfp2cjp--34" value="&lt;b&gt;Effect is function from Rule input to Optional of Rule output&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="860" y="960" width="350" height="30" as="geometry" />
+        <mxCell id="KxVWxkjvfM31sfp2cjp--34" value="&lt;b&gt;Effect is function from Rule input to Rule output&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="970" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KxVWxkjvfM31sfp2cjp--35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KxVWxkjvfM31sfp2cjp--37">
           <mxGeometry relative="1" as="geometry">
@@ -305,7 +305,7 @@
         <mxCell id="KxVWxkjvfM31sfp2cjp--37" value="Effect" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1362" y="973" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="KxVWxkjvfM31sfp2cjp--38" value="may be Earning" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KxVWxkjvfM31sfp2cjp--38" value="Earning" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1491" y="960" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KxVWxkjvfM31sfp2cjp--39" value="Transaction" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
