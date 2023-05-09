@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T19:35:09.115Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="AECbfR9FyovKgnkxOHEu" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-09T19:37:31.696Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="5pajkBCw_nIH68_ROJv-" version="21.2.9" type="github">
   <diagram name="Страница 1" id="TAQ5d7j4zBhrqEJKE11E">
     <mxGraphModel dx="1380" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -353,6 +353,9 @@
         </mxCell>
         <mxCell id="bjk2vdLy0Dc0wwWH_pov-104" value="&lt;ul&gt;&lt;li&gt;Контроллер кампаний?&lt;/li&gt;&lt;li&gt;Контроллер правил?&lt;/li&gt;&lt;li&gt;Процессор событий работает только с представлением текущими кампаниями / правилами&lt;/li&gt;&lt;li&gt;Контроллер кампаний отвечает за удаление из представления неактуальных кампаний и добавление PENDING кампаний&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
           <mxGeometry x="320" y="2560" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bjk2vdLy0Dc0wwWH_pov-105" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Must be indexing of rules!!!&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="719" y="2480" width="121" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
