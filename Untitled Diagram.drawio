@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-06T11:39:33.470Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="5aFs0tLAfea0-iJGbwjw" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-06T11:40:39.123Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="p1Adn_P7vbBlot10khpZ" version="21.5.0" type="github">
   <diagram name="Page-1" id="jxZHKuPuWRv_rBrSmg6W">
     <mxGraphModel dx="2537" dy="2029" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -51,8 +51,8 @@
             <mxPoint x="680" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gcZDtFcbOL_r8VpVRLgz-10" value="&lt;b&gt;RabbitMQ&lt;br&gt;&lt;br&gt;Rewards&lt;br&gt;&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#FFD966;" vertex="1" parent="1">
-          <mxGeometry x="600" y="682.5" width="200" height="65" as="geometry" />
+        <mxCell id="gcZDtFcbOL_r8VpVRLgz-10" value="&lt;b&gt;RabbitMQ&lt;br&gt;Rewards&lt;br&gt;&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="600" y="682.5" width="200" height="157.5" as="geometry" />
         </mxCell>
         <mxCell id="gcZDtFcbOL_r8VpVRLgz-12" value="Send" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="520" y="450" width="60" height="30" as="geometry" />
@@ -101,14 +101,14 @@
         <mxCell id="gcZDtFcbOL_r8VpVRLgz-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gcZDtFcbOL_r8VpVRLgz-31" target="gcZDtFcbOL_r8VpVRLgz-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gcZDtFcbOL_r8VpVRLgz-31" value="&lt;b&gt;RabbitMQ&lt;br&gt;&lt;br&gt;Cashback events&lt;br&gt;&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#FFD966;" vertex="1" parent="1">
-          <mxGeometry x="600" y="290" width="200" height="65" as="geometry" />
+        <mxCell id="gcZDtFcbOL_r8VpVRLgz-31" value="&lt;b&gt;RabbitMQ&lt;br&gt;Cashback events&lt;br&gt;&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="600" y="290" width="200" height="150" as="geometry" />
         </mxCell>
         <mxCell id="gcZDtFcbOL_r8VpVRLgz-40" value="&lt;ul&gt;&lt;li&gt;&lt;strong&gt;RewardCreated&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;RewardConfirmed&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;RewardCancelled&lt;/strong&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="425" y="690" width="165" height="100" as="geometry" />
+          <mxGeometry x="617.5" y="760" width="165" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gcZDtFcbOL_r8VpVRLgz-42" value="&lt;ul&gt;&lt;li&gt;&lt;b&gt;CashBackEarned&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;CashbackReversed&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;CashbackRedeemed&lt;/b&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="520" y="370" width="170" height="80" as="geometry" />
+          <mxGeometry x="612.5" y="370" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gcZDtFcbOL_r8VpVRLgz-43" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;RewardCreated - сформирована, но пока не доступна награда (authorization)&lt;br&gt;RewardConfirmed - подтверждение получено, награду можно взять (clearing)&lt;br&gt;RewardCancelled - отмена награды (reversal)&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry y="870" width="700" height="80" as="geometry" />
