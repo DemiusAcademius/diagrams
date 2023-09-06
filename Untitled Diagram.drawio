@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-06T06:47:02.008Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="DhtP3N5gAoA0TT-kA8Fg" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-06T06:47:22.611Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="2-VFEPXO_lGusDqFx5bE" version="21.5.0" type="github">
   <diagram name="Page-1" id="jxZHKuPuWRv_rBrSmg6W">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -82,7 +82,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gcZDtFcbOL_r8VpVRLgz-21" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;b&gt;communication-gate&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="615" y="900" width="170" height="30" as="geometry" />
+          <mxGeometry x="615" y="880" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gcZDtFcbOL_r8VpVRLgz-22" value="Transactions History" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1000" y="440" width="160" height="80" as="geometry" />
