@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-06T11:20:25.283Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="LBKgZ4XgYhkFR5Xcpm6E" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-06T11:21:04.753Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="vU-cfja3aictFbY0QdrN" version="21.5.0" type="github">
   <diagram name="Page-1" id="jxZHKuPuWRv_rBrSmg6W">
     <mxGraphModel dx="1687" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -42,6 +42,9 @@
         <mxCell id="gcZDtFcbOL_r8VpVRLgz-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.574;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gcZDtFcbOL_r8VpVRLgz-7" target="gcZDtFcbOL_r8VpVRLgz-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="gcZDtFcbOL_r8VpVRLgz-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gcZDtFcbOL_r8VpVRLgz-7" target="gcZDtFcbOL_r8VpVRLgz-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="gcZDtFcbOL_r8VpVRLgz-7" value="&lt;b&gt;Loyalty Account Service&lt;br&gt;&lt;br&gt;Hold loyalty account info&lt;br&gt;Calculates and hold Cashback for each account&lt;br&gt;&lt;br&gt;40% Ready&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="1">
           <mxGeometry x="505" y="140" width="280" height="120" as="geometry" />
         </mxCell>
@@ -73,7 +76,7 @@
           <mxGeometry x="1080" y="400" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gcZDtFcbOL_r8VpVRLgz-25" value="&lt;b&gt;Cashflow Service&lt;br&gt;&lt;br&gt;T24 Transactions&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#e60505&quot;&gt;Not yet started&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="1">
-          <mxGeometry x="960" y="160" width="240" height="150" as="geometry" />
+          <mxGeometry x="920" y="125" width="240" height="150" as="geometry" />
         </mxCell>
         <mxCell id="gcZDtFcbOL_r8VpVRLgz-27" value="&lt;ul style=&quot;font-size: 17px;&quot;&gt;&lt;li&gt;&lt;b&gt;9-digits bin-range from MMC&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Client ID in Unlock notifications from MMC&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Authorization Date and others for Refund &amp;amp; Unlock&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
           <mxGeometry x="40" y="880" width="470" height="120" as="geometry" />
