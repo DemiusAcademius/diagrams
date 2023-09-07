@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-07T05:58:12.349Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="wBRMUQu8Oq32MiTe1csh" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-07T05:59:22.304Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="6XtnqdJoCXFpAhDAq9EG" version="21.5.0" type="github">
   <diagram name="Page-1" id="j-eDqDpKoLgPAk3GTxfP">
     <mxGraphModel dx="2284" dy="1890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -115,16 +115,10 @@
         <mxCell id="VZrlg-Crpo96Uy3mQfim-37" value="&lt;b&gt;MMC&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-109" y="629" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VZrlg-Crpo96Uy3mQfim-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZrlg-Crpo96Uy3mQfim-39" target="VZrlg-Crpo96Uy3mQfim-42">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="VZrlg-Crpo96Uy3mQfim-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZrlg-Crpo96Uy3mQfim-39" target="VZrlg-Crpo96Uy3mQfim-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VZrlg-Crpo96Uy3mQfim-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZrlg-Crpo96Uy3mQfim-39" target="VZrlg-Crpo96Uy3mQfim-57">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VZrlg-Crpo96Uy3mQfim-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZrlg-Crpo96Uy3mQfim-39" target="VZrlg-Crpo96Uy3mQfim-60">
+        <mxCell id="VZrlg-Crpo96Uy3mQfim-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZrlg-Crpo96Uy3mQfim-39" target="VZrlg-Crpo96Uy3mQfim-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VZrlg-Crpo96Uy3mQfim-39" value="&lt;b&gt;RewardCanceled&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
@@ -133,8 +127,11 @@
         <mxCell id="VZrlg-Crpo96Uy3mQfim-40" value="&lt;b&gt;Campaign Service&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="91" y="579" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VZrlg-Crpo96Uy3mQfim-42" value="RewardCanceled event matched with Reward entity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="619" width="120" height="60" as="geometry" />
+        <mxCell id="VZrlg-Crpo96Uy3mQfim-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZrlg-Crpo96Uy3mQfim-42" target="VZrlg-Crpo96Uy3mQfim-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VZrlg-Crpo96Uy3mQfim-42" value="RewardCanceled event matched with Reward entity&lt;br&gt;new state: Cenceled" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="619" width="120" height="101" as="geometry" />
         </mxCell>
         <mxCell id="VZrlg-Crpo96Uy3mQfim-43" value="&lt;b&gt;Rewards Service&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="557.5" y="589" width="110" height="30" as="geometry" />
@@ -155,10 +152,10 @@
           <mxGeometry x="560" y="480" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VZrlg-Crpo96Uy3mQfim-60" value="&lt;b&gt;CashbackReversed&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="860" y="619" width="120" height="60" as="geometry" />
+          <mxGeometry x="860" y="639.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VZrlg-Crpo96Uy3mQfim-62" value="&lt;b&gt;If Reward already has been confirmed&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="700" y="619" width="150" height="30" as="geometry" />
+          <mxGeometry x="700" y="634" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VZrlg-Crpo96Uy3mQfim-63" value="Updated cashback on LoyaltyAccount" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="677.5" y="1000" width="160" height="60" as="geometry" />
