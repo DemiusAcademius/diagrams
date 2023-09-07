@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-07T05:48:43.930Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="8W4P6pNqOHbhEBhkwjkH" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-07T05:51:12.554Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="0izsCueXbEgfg8zyE0gP" version="21.5.0" type="github">
   <diagram name="Page-1" id="j-eDqDpKoLgPAk3GTxfP">
     <mxGraphModel dx="2284" dy="1890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -124,6 +124,9 @@
         <mxCell id="VZrlg-Crpo96Uy3mQfim-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZrlg-Crpo96Uy3mQfim-39" target="VZrlg-Crpo96Uy3mQfim-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="VZrlg-Crpo96Uy3mQfim-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZrlg-Crpo96Uy3mQfim-39" target="VZrlg-Crpo96Uy3mQfim-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="VZrlg-Crpo96Uy3mQfim-39" value="&lt;b&gt;RewardCanceled&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="201" y="619" width="120" height="60" as="geometry" />
         </mxCell>
@@ -131,13 +134,13 @@
           <mxGeometry x="91" y="579" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VZrlg-Crpo96Uy3mQfim-42" value="RewardCanceled event matched with RewardCreated event" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="435" y="619" width="120" height="60" as="geometry" />
+          <mxGeometry x="560" y="619" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VZrlg-Crpo96Uy3mQfim-43" value="&lt;b&gt;Rewards Service&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="435" y="589" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VZrlg-Crpo96Uy3mQfim-50" value="listen for&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;RewardCanceled&lt;/b&gt;&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;&lt;/b&gt;event&lt;br&gt;for enrich reversal transaction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="435" y="760" width="160" height="110" as="geometry" />
+          <mxGeometry x="557.5" y="760" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="VZrlg-Crpo96Uy3mQfim-51" value="&lt;b&gt;Transaction History&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="730" width="120" height="30" as="geometry" />
@@ -149,10 +152,16 @@
           <mxGeometry x="255" y="240" width="305" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VZrlg-Crpo96Uy3mQfim-57" value="listen for&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;RewardCanceled&amp;nbsp;&lt;/b&gt;event for send Push Notification" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="442.5" y="500" width="157.5" height="60" as="geometry" />
+          <mxGeometry x="560" y="510" width="157.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VZrlg-Crpo96Uy3mQfim-58" value="&lt;b&gt;Notification Service&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="442.5" y="470" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VZrlg-Crpo96Uy3mQfim-60" value="&lt;b&gt;CashbackReversed&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZrlg-Crpo96Uy3mQfim-62" value="&lt;b&gt;If Reward already has been confirmed&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="930" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
