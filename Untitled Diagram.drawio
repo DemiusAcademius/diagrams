@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-07T06:08:49.909Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="_r--bgk04hGXC9ByxNgH" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-07T06:15:12.807Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="tIkdvXV6Ar708Y3B3ZiK" version="21.5.0" type="github">
   <diagram name="Page-1" id="j-eDqDpKoLgPAk3GTxfP">
     <mxGraphModel dx="2284" dy="1890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -163,6 +163,9 @@
         <mxCell id="VZrlg-Crpo96Uy3mQfim-62" value="&lt;b&gt;If Reward already has been confirmed&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="700" y="634" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="VZrlg-Crpo96Uy3mQfim-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VZrlg-Crpo96Uy3mQfim-63" target="VZrlg-Crpo96Uy3mQfim-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="VZrlg-Crpo96Uy3mQfim-63" value="Updated cashback on LoyaltyAccount" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1040" y="639" width="160" height="60" as="geometry" />
         </mxCell>
@@ -171,6 +174,12 @@
         </mxCell>
         <mxCell id="VZrlg-Crpo96Uy3mQfim-70" value="&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;If this reward confirmed, but we have another non-confirmed rewards?&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="730" y="710" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VZrlg-Crpo96Uy3mQfim-72" value="&lt;b&gt;Cashflow service&lt;br&gt;&lt;br&gt;T24&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="800" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VZrlg-Crpo96Uy3mQfim-74" value="Debit Client Account if insufisient amount in loyalty account" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="760" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
