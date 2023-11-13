@@ -1,26 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2023-11-13T06:46:21.031Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="LdPGxdCOU7D16YCUSfK7" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-13T06:48:06.392Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="O-uHoIbm5-PdW2BiHEwq" version="22.1.0" type="github">
   <diagram id="sL5Tc55srkH9KubWSJzO" name="Page-1">
     <mxGraphModel dx="1834" dy="1190" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="DqaYeUk1Fyd7Ufu1RzYX-1" value="redemption-service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="-10" y="-255" width="100" height="2815" as="geometry" />
+          <mxGeometry x="-10" y="-255" width="100" height="1975" as="geometry" />
         </mxCell>
         <mxCell id="DqaYeUk1Fyd7Ufu1RzYX-5" value="RabbitMQ" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="200" y="-255" width="100" height="2815" as="geometry" />
+          <mxGeometry x="200" y="-255" width="100" height="1975" as="geometry" />
         </mxCell>
         <mxCell id="DqaYeUk1Fyd7Ufu1RzYX-11" value="account-service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="669" y="-255" width="100" height="2815" as="geometry" />
+          <mxGeometry x="669" y="-255" width="100" height="1975" as="geometry" />
         </mxCell>
         <mxCell id="cOzLhtD-aJ4Guky27_UA-69" value="T24" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
-          <mxGeometry x="940" y="-255" width="100" height="2815" as="geometry" />
+          <mxGeometry x="940" y="-255" width="100" height="1975" as="geometry" />
         </mxCell>
         <mxCell id="cOzLhtD-aJ4Guky27_UA-6" value="transfer-service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="388" y="-255" width="100" height="2815" as="geometry" />
-        </mxCell>
-        <mxCell id="cOzLhtD-aJ4Guky27_UA-95" value="MMC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="-255" width="100" height="2815" as="geometry" />
+          <mxGeometry x="388" y="-255" width="100" height="1975" as="geometry" />
         </mxCell>
         <mxCell id="V1dpAdhTbEsZ1fcURhdF-4" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="150" y="642" width="440" height="127" as="geometry" />
